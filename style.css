@@ -14,12 +14,31 @@ body.debug [class*="col-"] {
     outline-offset: -3px;
 }
 
-/* body {
-    background-image: url(https://images.unsplash.com/photo-1519743375942-b497d66b1e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80s);
+body {
+    background-image: url(https://images.unsplash.com/photo-1559499224-8301eefa1199?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80);
     background-size: cover;
     background-position: top;
-} */
+
+}
 
 h1 {
     font-family: 'Tektur', cursive;
+}
+
+button {
+    background-color: rgba(196, 255, 255, 0.733);
+    border-radius: 8px;
+    height: 30px;
+}
+
+#gameplay {
+    justify-content: center;
+
+}
+
+section.scoreboard {
+    background-color: rgba(196, 255, 252, 0.733);
+    border: 1px;
+    border-radius: 8px;
+    padding: .5em;
 }
