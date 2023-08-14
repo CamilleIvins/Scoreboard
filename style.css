@@ -28,11 +28,15 @@ h1 {
 button {
     background-color: rgba(196, 255, 255, 0.733);
     border-radius: 8px;
-    height: 30px;
+    height: 40px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
-#gameplay {
-    justify-content: center;
+section#gameplay {
+    position: absolute;
+    bottom: 20px;
+
 
 }
 
