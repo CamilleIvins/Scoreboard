@@ -1,0 +1,25 @@
+body.debug .container,
+body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+}
+
+body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+}
+
+/* body {
+    background-image: url(https://images.unsplash.com/photo-1519743375942-b497d66b1e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80s);
+    background-size: cover;
+    background-position: top;
+} */
+
+h1 {
+    font-family: 'Tektur', cursive;
+}
